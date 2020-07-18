@@ -1,0 +1,236 @@
+[2019-12-29T18:59:42.481] [ERROR] user - A URL possui parâmetros inválidos { idLog: 'db8f3bd9-5a13-470e-8ac4-ca3dfa70d8ab' } undefined
+[2019-12-29T19:02:57.942] [ERROR] user - A URL possui parâmetros inválidos { idLog: '385f30f4-8fd4-4712-853a-9fc8d547f166' } undefined
+[2019-12-29T19:03:35.346] [ERROR] user - A URL possui parâmetros inválidos { idLog: '937848e9-41a0-430e-adad-9593e7529bbe' } undefined
+[2019-12-29T19:04:44.661] [ERROR] user - A URL possui parâmetros inválidos { idLog: '954d3edc-4e9a-49d1-81ef-f769d211b747' } undefined
+[2019-12-29T19:05:40.707] [ERROR] user - A URL possui parâmetros inválidos { idLog: '3e9c7b92-663a-45fb-9f9f-3a0423e971e7' } undefined
+[2019-12-29T19:10:14.923] [ERROR] user - A URL possui parâmetros inválidos { idLog: 'd71a27dd-bb92-443b-b7ff-54a9722fee7b' } undefined
+[2019-12-29T19:17:08.979] [ERROR] user - A URL possui parâmetros inválidos { idLog: '069315fb-2a9f-4f6e-83f6-35498180755e' } undefined
+[2019-12-29T19:17:36.334] [ERROR] user - A URL possui parâmetros inválidos { idLog: 'b5727b55-b833-4dee-baf4-578578ed1245' } undefined
+[2020-06-02T22:26:19.688] [ERROR] user - Cannot read property 'email' of undefined { idLog: 'fcf9d266-300c-45c7-b618-36c62cdbfb28' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:34:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.getUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:28:51)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-02T22:26:31.378] [ERROR] user - Cannot read property 'email' of undefined { idLog: '25f4349c-66b2-4c11-b519-2713401e5772' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:34:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.getUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:28:51)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-02T22:27:01.454] [ERROR] user - Cannot read property 'email' of undefined { idLog: '1b2426e7-43bd-45c8-8eb4-aedaa79a44c8' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:34:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.getUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:28:51)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-02T22:27:26.202] [ERROR] user - Cannot read property 'email' of undefined { idLog: 'c4f5c268-b012-4b08-bc96-bfdbabe322e8' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:34:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.getUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:28:51)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-02T22:29:53.365] [ERROR] user - Cannot read property 'email' of undefined { idLog: '29ba0906-01d5-47b9-914e-2addf28b9414' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:35:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.getUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:28:51)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-02T22:30:09.518] [ERROR] user - Cannot read property 'email' of undefined { idLog: '5c386630-1b8d-49b2-b686-1f19f48fbbb6' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:35:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.getUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:28:51)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-02T22:31:13.398] [ERROR] user - Cannot read property 'email' of undefined { idLog: 'a48325ac-1e74-4b77-b3a8-a12584bd6d7d' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:34:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.getUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:28:51)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-02T22:31:34.498] [ERROR] user - Cannot read property 'email' of undefined { idLog: '146366de-d7db-4947-9c1f-5e2490b2bc50' } TypeError: Cannot read property 'email' of undefined
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:35:61)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.getUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:28:51)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+[2020-06-02T22:32:36.540] [ERROR] user - Erro ao buscar usuário { idLog: '8e3dcad8-5b5d-45d9-9761-c80f643d8f4f' } { [Usuário não encontrado] code: 500004, httpStatus: 500 }
+[2020-06-02T22:32:36.569] [ERROR] user - Ocorreu um erro ao inserir Erro buscar usuário. { idLog: '8e3dcad8-5b5d-45d9-9761-c80f643d8f4f' } Usuário não encontrado
+[2020-06-02T22:35:14.817] [ERROR] user - Erro ao buscar usuário { idLog: 'd82e8a9c-415b-44ea-a2d1-e1ce8db8422f' } { [Usuário não encontrado] code: 500004, httpStatus: 500 }
+[2020-06-02T22:35:14.824] [ERROR] user - Ocorreu um erro ao inserir Erro ao buscar usuário. { idLog: 'd82e8a9c-415b-44ea-a2d1-e1ce8db8422f' } Usuário não encontrado
+[2020-06-02T22:35:53.004] [ERROR] user - Erro ao buscar usuário { idLog: 'd504d0b9-b21f-4cb2-a2ad-b8010cbf042f' } { [Usuário não encontrado] code: 500004, httpStatus: 500 }
+[2020-06-02T22:35:53.010] [ERROR] user - Erro ao buscar usuário { idLog: 'd504d0b9-b21f-4cb2-a2ad-b8010cbf042f' } Usuário não encontrado
+[2020-06-02T22:43:04.698] [ERROR] user - Erro ao buscar usuário { idLog: '48be72c2-5aa8-4dd5-9f73-ac746ec89dac' } { [Error: Senha ou apelido incorreto] code: 500004, httpStatus: 500 }
+[2020-06-02T22:43:04.710] [ERROR] user - Senha ou apelido incorreto { idLog: '48be72c2-5aa8-4dd5-9f73-ac746ec89dac' } undefined
+[2020-06-02T22:46:00.804] [ERROR] user - Cannot set headers after they are sent to the client { idLog: '6443dcab-1f0a-43a7-8e65-9875e1b561f1' } Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.json (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\response.js:264:10)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:36:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:5:58)
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+    at runNextTicks (internal/process/next_tick.js:51:3)
+    at processImmediate (timers.js:611:7)
+    at process.topLevelDomainCallback (domain.js:136:23)
+[2020-06-02T22:46:21.729] [ERROR] user - Cannot set headers after they are sent to the client { idLog: '94267efd-8d63-44e7-bbca-2b1fc1dd4724' } Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.json (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\response.js:264:10)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:36:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:5:58)
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+    at runNextTicks (internal/process/next_tick.js:51:3)
+    at processImmediate (timers.js:611:7)
+    at process.topLevelDomainCallback (domain.js:136:23)
+[2020-06-10T10:25:58.970] [ERROR] user - Cannot read property 'email' of undefined { idLog: '84623fff-2970-429f-842b-a94566d26646' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:34:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.getUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:28:51)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-10T10:33:45.654] [ERROR] user - Cannot read property 'email' of undefined { idLog: '31e7afc5-788a-4348-b77f-025682fdba95' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:49:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.registerUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:43:56)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-10T10:34:17.715] [ERROR] user - Cannot read property 'email' of undefined { idLog: 'd313ff16-f770-4b4e-80a0-fcd9bc11639d' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:49:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.registerUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:43:56)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-10T10:35:24.984] [ERROR] user - Cannot read property 'email' of undefined { idLog: '6cab144d-623d-4a4d-8328-d250135e9a7f' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:49:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.registerUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:43:56)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-15T22:37:47.044] [ERROR] user - Cannot read property 'email' of undefined { idLog: '06719ccb-12fd-43a1-a7b1-3dc2caedd55b' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:49:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.registerUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:43:56)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-15T22:41:43.838] [ERROR] user - Cannot read property 'email' of undefined { idLog: '022f6b4b-6b83-4645-8a96-454389d1d103' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:49:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.registerUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:43:56)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-15T22:45:21.118] [ERROR] user - Cannot read property 'email' of undefined { idLog: '19f13118-4b9b-4d69-8e66-9fa403efa60f' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:49:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.registerUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:43:56)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-15T22:45:42.120] [ERROR] user - Cannot read property 'email' of undefined { idLog: '88c2ef7b-34c3-405c-92a1-5a1e17353480' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:49:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.registerUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:43:56)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-15T22:47:04.948] [ERROR] user - Cannot read property 'email' of undefined { idLog: '5ce38854-79f0-428c-8ac2-02140e709348' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:49:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.registerUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:43:56)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
+[2020-06-15T22:47:06.324] [ERROR] user - Cannot read property 'email' of undefined { idLog: 'afb0691e-fc41-4188-bc32-83694a6de066' } TypeError: Cannot read property 'email' of undefined
+    at Controller.paramsValidate (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:16:17)
+    at Controller.<anonymous> (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:49:12)
+    at Generator.next (<anonymous>)
+    at C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:4:12)
+    at Controller.registerUser (C:\Projetos\Aulas desenvolvimento\BackEnd\src\users\UsersController.ts:43:56)
+    at Layer.handle [as handle_request] (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projetos\Aulas desenvolvimento\BackEnd\node_modules\express\lib\router\route.js:137:13)
+    at logManager (C:\Projetos\Aulas desenvolvimento\BackEnd\src\shared\middleware\index.ts:14:3)
