@@ -30,7 +30,7 @@ export default class UsersRepository implements IUsersRepository {
                 password,
                 birthDate,
                 fullName,
-                userPhoto: `${IMAGES_REPOSITORY}/${users.length / NUMBER_IMAGES}.jpg`,
+                userPhoto: `${IMAGES_REPOSITORY}/${users.length % NUMBER_IMAGES}.jpg`,
               });
               const json = JSON.stringify(users);
               fs.writeFile(
