@@ -26,6 +26,7 @@ export default class UsersRepository implements IUsersRepository {
               const user = users.find((item: any) => item.email === email);
               if (user && user.email) throw 'Usuário já registrado';
               users.push({
+                id: users.length + 1,
                 email,
                 password,
                 birthDate,
@@ -82,7 +83,8 @@ export default class UsersRepository implements IUsersRepository {
               );
               if (!user) throw 'Usuário não encontrado';
               resolve({
-                email: email,
+                email,
+                id: user.id,
                 fullName: user.fullName,
                 birthDate: user.birthDate,
                 userPhoto: user.userPhoto,
