@@ -4,11 +4,13 @@ export default class UserModel {
   public fullName: string | undefined;
   public birthDate: Date | undefined;
   public userPhoto: string | undefined;
+  public notifications: Array<string>;
 
   constructor(user: UserModel = {} as UserModel) {
     const {
       id = 0,
       email = undefined,
+      notifications = [],
       birthDate = undefined,
       fullName = undefined,
       userPhoto = undefined,
@@ -19,5 +21,6 @@ export default class UserModel {
     this.birthDate = birthDate;
     this.fullName = fullName;
     this.userPhoto = userPhoto;
+    this.notifications = notifications;
   }
 }

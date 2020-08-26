@@ -4,7 +4,7 @@ import IUsersRepository from './IUsersRepository';
 import RepositoryException from '../shared/exception/RepositoryException';
 import { INSERT_ERROR, IMAGES_REPOSITORY, NUMBER_IMAGES } from '../shared/repository/constants';
 
-'use strict';
+('use strict');
 const fs = require('fs');
 
 export default class UsersRepository implements IUsersRepository {
@@ -32,6 +32,7 @@ export default class UsersRepository implements IUsersRepository {
                 birthDate,
                 fullName,
                 userPhoto: `${IMAGES_REPOSITORY}/${users.length % NUMBER_IMAGES}.jpg`,
+                notifications: ['Bem vinda!! :)'],
               });
               const json = JSON.stringify(users);
               fs.writeFile(
@@ -88,6 +89,7 @@ export default class UsersRepository implements IUsersRepository {
                 fullName: user.fullName,
                 birthDate: user.birthDate,
                 userPhoto: user.userPhoto,
+                notifications: user.notifications,
               });
             }
           );
